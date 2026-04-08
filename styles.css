@@ -15,7 +15,7 @@ body {
 }
 
 #container {
-    width: 90%;
+    width: 80%;
     max-width: 1300px;
     margin: 0 auto;
     background-color: #f6f3eb;
@@ -67,7 +67,7 @@ nav ul li a:hover {
 }
 
 #content-area {
-    width: 90%;
+    width: 80%;
 	max-width: 1300px;
     margin: 0 auto;
     padding: 20px;
