@@ -341,7 +341,7 @@ nav ul li {
 }
 
 #menu-grid .small-box {
-	width: 100;
+	width: 100%;
 	min-height: auto;
 	margin-bottom: 15px;
 }
