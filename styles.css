@@ -343,7 +343,9 @@ a#navicon {
 	}
 
    
-	a#navicon:hover+ul, nav.horizontal ul:hover {
+	a#navicon:hover+ul, 
+	a#navicon:focus+ul,
+	nav ul:hover {
 	   display:block;
 	}
 
