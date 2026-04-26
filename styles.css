@@ -248,6 +248,12 @@ div.formRow * {
 	flex: 1 1 150px;
 }
 
+.social-row ul li {
+	text-align: left;
+	font-size: .75em;
+	padding: 6px;
+}
+
 form#survey {
 	display: flex;
 	flex-flow: row wrap;
@@ -258,7 +264,7 @@ form#survey fieldset {
 	font-size: 0.6em;
 	}
 
-#commBox {
+#commBox, #requestBox {
 	width: 90%;
 	height: 40px;
 	font-size: 0.9em;
@@ -272,7 +278,7 @@ div#buttons {
 }
 
 input[type='submit'], input[type='reset'] {
-	font-size: .75 em;
+	font-size: .75em;
 	margin: 15px;
 }
 
