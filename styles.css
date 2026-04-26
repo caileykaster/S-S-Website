@@ -36,7 +36,7 @@ header img {
 nav {
     width: 100%;
     margin: 0 auto;
-    background-color: #d9d9d9;
+    background-color: #879287;
     padding: 20px 0;
 }
 
@@ -56,13 +56,13 @@ nav ul li a {
     text-align: center;
     text-decoration: none;
     padding: 14px 0;
-    background-color: #ececdf;
+    background-color: #fff5e5;
     color: #2f2f2f;
     font-size: 1em;
 }
 
 nav ul li a:hover {
-    background-color: #bcc7b5;
+    background-color: #9aa79a;
     color: black;
 }
 
@@ -207,6 +207,75 @@ nav ul li a:hover {
 	margin: 0 auto;
 	}
 
+.social-icons {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 35px
+}
+
+.social-row {
+	display: flex;
+	align-items: center;
+	gap: 25px;
+}
+	
+.social-row img {
+	width: 50px;
+	height: 50px;
+	object-fit: contain;
+}
+
+.social-row span {
+	font-size: 1em;
+	text-align: left;
+}
+
+.social-row span li{
+	font-size: .75em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/* Form Layout Styles */
+
+div.formRow {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 7px 0px;
+}
+
+div.formRow * {
+	flex: 1 1 150px;
+}
+
+form#survey {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+form#survey fieldset {
+	flex: 1 1 50px;
+	font-size: 0.6em;
+	}
+
+#commBox {
+	width: 90%;
+	height: 40px;
+	font-size: 0.9em;
+}
+
+/* Form Button Styles */
+
+div#buttons {
+	text-align: center;
+	width: 100%
+}
+
+input[type='submit'], input[type='reset'] {
+	font-size: .75 em;
+	margin: 15px;
+}
+
 #video-panel {
     flex: 1;
     background-color: rgba(245, 245, 240, 0.95);
@@ -228,10 +297,10 @@ nav ul li a:hover {
 footer {
     width: 100%;
     margin: 0 auto 20px auto;
-    background-color: #cfd7c9;
+    background-color: #879287;
     text-align: center;
     padding: 10px 0;
-    color: #2f2f2f;
+    color: #fff5e5;
     font-size: 0.9em;
 	}
 
@@ -240,7 +309,7 @@ footer p {
 	}
 
 footer a {
-    color: #2f2f2f;
+    color: #fff5e5;
     text-decoration: none;
 	}
 

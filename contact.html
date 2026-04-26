@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<!-- 
+		Final Project CMIS 410
+		Author: Cailey Kaster
+		Date: 4/17/2026
+		
+		These web pages are for educational purposes only, all content should be considered fictional. 
+	
+	-->
+
+<meta http-equiv = "Content-Type" content = "text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<title>SageandSugar</title>
+   <link href="styles.css" rel="stylesheet" />
+
+
+
+</head>
+
+<body>
+
+<div id = "container"> 
+
+<header> 
+
+<a href="index.html"><img src="images/logoheader.png" alt="Sage and Sugar logo"/></a>
+
+</header> 
+		 
+<nav> 
+	<a id="navicon" href="#"><img src="icons/navicon.png" alt="" /></a>
+	<ul>
+	  <li><a href = "index.html">Home</a></li>
+	  <li><a href = "about.html">About</a></li>
+	  <li><a href = "menu.html">Menu</a></li>
+	  <li><a href = "contact.html">Contact Us</a></li>
+	</ul>
+</nav> 
+<section id="content-area">
+	<div id="left-grid">
+	<div class="small-box social-icons">
+		
+		<div class="social-row">
+		<img src="icons/instagram.png" alt="instagram logo"> <span>@Sage&Sugar</span>
+		</div>
+		<div class="social-row"> 
+		<img src="icons/facebook.png" alt="facebook logo"> <span>@Sage&Sugar</span>
+		</div>
+		<div class="social-row"> 
+		<img src="icons/tiktok.png" alt="tiktok logo"> <span>@Sage&Sugar</span>
+		</div>
+		<div class="social-row"> 
+			<span>
+				<li>Telephone: 123-456-7890</li>
+				<li>Email: sageandsugar@gmail.com</li>
+				<li>Address: State Street Apartments, <br>1700 21st Ave S, Seattle, WA 98144</br></li>
+			</span>
+		</div>
+	</div>
+					<div class="small-box image-box">
+		<form id="survey" action="http://www.example.com/redball/survey" method="post">
+	<fieldset id="custInfo">
+		<legend>Customer Information</legend>
+		<div class="formRow">
+			<label for="name">Name*</label>
+			<input name="custName" id="name" type="text" placeholder="first and last name" />
+		</div>
+		<div class="formRow">
+			<label for="street">Street address</label>
+			<input name="custStreet" id="street" type="text" />
+		</div>
+		<div class="formRow">
+			<label for="city">City</label>
+			<input name="custCity" id="city" type="text" value="Peru" />
+		</div>
+		<div class="formRow">
+			<label for="state">State</label>
+			<input name="custState" id="state" type="text" value="NE" />
+		</div>
+		<div class="formRow">
+			<label for="zip">Postal Code</label>
+			<input name="custZip" id="zip" type="text" placeholder="xxxxx (-xxxx)" />
+		</div>
+		<div class="formRow">
+			<label for="phone">Phone Number</label>
+			<input name="custPhone" id="phone" type="tel" placeholder="(xxx) xxx-xxxx" />
+		</div>
+		<div class="formRow">
+			<label for="mail">E-mail*</label>
+			<input name="custEmail" id="mail" type="email" />
+		</div>
+		
+		<input name="mailMe" id="mailCB" value="ues" type="checkbox" />
+		<label for="mailCB">Add me to your mailing list for great coupons and specials!</label>
+		
+	</fieldset>
+		
+	
+
+	<fieldset id="expInfo">
+		<legend>Cake Order Form</legend>
+		
+		<div class="formRow">
+			<label for="pickup">Date of Pickup</label>
+			<input name="pickupDate" id="pickup" type="date" />
+		</div>
+		<div class="formRow">
+			<label for="pickup">Time of Pickup</label>
+			<input name="pickupTime" id="pickup" type="time" />
+		</div>
+		<div class="formRow">
+			<label for="occasion">Occasion</label>
+			<select name="occasionType" id="flavor">
+				<option value="occasion1">Birthday</option>
+				<option value="occasion2">Anniversary</option>
+				<option value="occasion3" selected>Wedding</option>
+				<option value="occasion4">Graduation</option>
+				<option value="occasion5">Baby Shower</option>
+				<option value="occasion6">Other</option>
+			</select>
+		</div>
+		<div class="formRow">
+			<label for="size">Cake Size</label>
+			<select name="sizeType" id="size">
+				<option value="size1">6in round</option>
+				<option value="size2">8in round</option>
+				<option value="size3" selected>10in round</option>
+				<option value="size4">Sheet</option>
+			</select>
+		</div>
+		<div class="formRow">
+			<label for="flavor">Cake Flavor</label>
+			<select name="flavorType" id="flavor">
+				<option value="flavor1">Vanilla</option>
+				<option value="flavor2">Chocolate</option>
+				<option value="flavor3" selected>Red Velvet</option>
+				<option value="flavor4">Carrot</option>
+			</select>
+		</div>
+		<div class="formRow">
+			<label for="flavor">Frosting Flavor</label>
+			<select name="flavorType" id="flavor">
+				<option value="flavor1">Vanilla Buttercream</option>
+				<option value="flavor2">Chocolate Buttercream</option>
+				<option value="flavor3" selected>Cream Cheese</option>
+				<option value="flavor4">Whipped</option>
+			</select>
+		</div>
+		
+		<label for="commBox">Message on Cake</label>
+		<textarea name="cakeMsg" id="commBox"></textarea>
+		
+		<label for="commBox">Special Requests</label>
+		<textarea name="spclRqts" id="commBox"></textarea>
+		
+		<div id="buttons">
+			<input type="submit" value="Submit" />
+			<input type="reset" value="Cancel" />
+		</div>
+		
+	</fieldset>
+</form>
+		</div>
+	</div>
+</section>
+
+<footer> 
+
+	<p>Sage&Sugar &nbsp;&nbsp;&nbsp;
+	21 State Street &bull; Seattle, WA 24566 &nbsp;&nbsp;&nbsp;
+	<a href = "https://facebook.com" target="_blank">Facebook</a> | 
+	<a href ="https://www.google.com/maps/dir//State+Street+Apartments,+1700+21st+Ave+S,+Seattle,+WA+98144/@47.5982938,-122.3626775,13z/data=!4m18!1m8!3m7!1s0x54906bd0d0dc52d3:0x543568673d186d2!2sState+Street+Apartments!8m2!3d47.5882622!4d-122.3048489!15sCiUyMSBTdGF0ZSBTdHJlZXQg4oCiIFNlYXR0bGUsIFdBIDI0NTY2WiIiIDIxIHN0YXRlIHN0cmVldCBzZWF0dGxlIHdhIDI0NTY2kgERYXBhcnRtZW50X2NvbXBsZXiaASRDaGREU1VoTk1HOW5TMFZLU0V4b2RXRTNjRW95ZW01M1JSQULgAQD6AQQIIxBG!16s%2Fg%2F11w4gf1prr!4m8!1m0!1m5!1m1!1s0x54906bd0d0dc52d3:0x543568673d186d2!2m2!1d-122.3048507!2d47.5881755!3e0?entry=ttu&g_ep=EgoyMDI2MDQwMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">Directions</a> |
+	<a href = "1234567890" ">Telephone</a> |
+	<a href = "sageandsugar@gmail.com" >Email Us</a> |
+	</p>
+
+</footer>  
+
+</div> <!-- end container --> 
+
+</body>
+</html>
